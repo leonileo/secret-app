@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+
+    <div class="login">
+        <div class="logo">
+            <a href="/">
+                <i class="fa fa-key"></i><p>Secret</p>
+            </a>
+        </div>
+        <div class="form">
+
+            <h1>Login</h1>
+            <form action="/login" method="post">
+                <label for="email">Email </label>
+                <input type="email" name="username" id="email">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&family=Major+Mono+Display&family=Oswald:wght@300&family=Poppins&family=Space+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.514),yellow);
+}
+body > .container{
+    height: 98.1vh;
+}
+/* home */
+.center {
+    text-align: center;
+    height: 90vh;
+}
+.center .nd{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center .nd hr{
+    width: 1000px;
+}
+.fa-key{
+    font-size: 8em;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    animation: circle 5s infinite ease-in-out ;
+    transition: 1s;
+}
+@keyframes circle {
+    0%{ transform: rotateY(0deg);}
+    50%{transform: rotateY(-360deg);}    
+    100%{ transform: rotateY(0deg);}
+}
+
+.center .nd h1{
+    font-size: 6em;
+    letter-spacing: 10px;
+    color: white;
+}
+.center .nd h1::first-letter{
+    font-size: 100px;
+}
+.center .nd p{
+    margin-bottom: 10px;
+}
+.center .nd hr{
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.center .nd form{
+    margin-top: 20px;
+}
+.center .nd a{
+    padding: 10px;
+    background: #000;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    margin: -1px;
+    text-transform: uppercase;
+}
+.center .nd .reg{
+    background: white;
+    color: #000;
+}
+
+/* home end */
+
+/* register */
+.register{
+    height: 50vh;
+    padding: 10px;
+    margin: 10px 0;
+}
+.register .logo{
+    margin: 0 5em;
+}
+.logo a{
+    width: 150px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.logo p {
+    font-size: 25px;
+    color: white;
+}
+
+.register .form{
+    margin: 5em;
+}
+.register i{
+    font-size: 50px;
+}
+.register h1{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.register form {
+    width: 40%;
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+}
+.register form input{
+    width: 98%;
+    display: block;
+    margin: 10px 0;
+    border: 1px solid rgba(168, 154, 154, 0.61);
+    border-radius: 3px;
+    padding: 10px 10px;
+    outline: none;
+}
+.register button{
+    padding: 10px ;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #000;
+    color: white;
+    margin-top: 10px;
+}
+
+/* login */
+.login{
+    height: 50vh;
+    padding: 10px;
+    margin: 10px 0;
+}
+.login .logo{
+    margin: 0 5em;
+}
+.logo a{
+    width: 150px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.logo p {
+    font-size: 25px;
+    color: white;
+}
+
+.login .form{
+    margin: 5em;
+}
+.login i{
+    font-size: 50px;
+}
+.login h1{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.login form {
+    width: 40%;
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+}
+.login form input{
+    width: 98%;
+    display: block;
+    margin: 10px 0;
+    border: 1px solid rgba(168, 154, 154, 0.61);
+    border-radius: 3px;
+    padding: 10px 10px;
+    outline: none;
+}
+.login button{
+    padding: 10px ;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #000;
+    color: white;
+    margin-top: 10px;
+}
+/* secrets */
+.secret {
+    text-align: center;
+    height: 90vh;
+}
+.secret .nd{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secret .nd hr{
+    width: 100%;
+}
+.secret .fa-key{
+    font-size: 8em;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    animation: circle 5s infinite ease-in-out ;
+    transition: 1s;
+}
+@keyframes circle {
+    0%{ transform: rotateY(0deg);}
+    50%{transform: rotateY(-360deg);}    
+    100%{ transform: rotateY(0deg);}
+}
+
+.secret .nd h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+}
+.secret .nd p{
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #000;
+    color: white;
+    font-size: 40px;
+}
+.secret .nd hr{
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.secret .nd form{
+    margin-top: 20px;
+}
+.secret .nd a{
+    padding: 10px;
+    background: #000;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    margin: -1px;
+    text-transform: uppercase;
+}
+.secret .nd .logout{
+    background: white;
+    color: #000;
+}
+
+
+/*  */
+
+footer{
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 15px;
+}
