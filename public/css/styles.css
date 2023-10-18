@@ -247,6 +247,101 @@ body > .container{
     color: #000;
 }
 
+/* icons */
+.google{
+    width: ;
+    padding: 10px ;
+    position: absolute;
+    right: 20px;
+    top: 250px;
+    background: white;
+    border-radius: 5px;
+}
+.google a{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgb(230, 79, 41);
+    border-radius: 10px;
+}
+.google a{
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+    margin: 10px 0;
+}
+.google i{
+    font-size: 35px;
+}
+p{
+    margin: 10px;
+}
+p a{
+    text-decoration: none;
+    color: #000;
+}
+p a:hover{
+    text-decoration: underline;
+}
+/* submit */
+
+.submit {
+    text-align: center;
+    height: 90vh;
+}
+.submit .nd{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit .nd hr{
+    width: 1000px;
+}
+.submit .nd h1{
+    font-size: 6em;
+    letter-spacing: 10px;
+    color: white;
+}
+.submit .nd h1::first-letter{
+    font-size: 100px;
+}
+.submit .nd p{
+    margin-bottom: 10px;
+}
+.submit .nd hr{
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.submit .nd form{
+    margin-top: 20px;
+}
+.submit .nd form input{
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.submit .nd form button{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: whitesmoke;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+}
+.submit .nd form button:hover{
+    cursor: pointer;
+    /* background: linear-gradient(-45deg, rgba(255, 0, 0, 0.514),yellow); */
+    background: #d1d1d1;
+}
+
 
 /*  */
 

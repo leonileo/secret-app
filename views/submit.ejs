@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+
+    <div class="submit">
+        <div class="nd">
+            <div class="container">
+                <i class="fa fa-key"></i>
+                <h1>Secrets</h1>
+                <p>Don't keep your secrets, share them anonymously!</p>
+                <hr>
+                <form action="/submit" method="post">
+                    <input type="text" name="secret" id="" placeholder="What's your secret?">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<%- include('partials/footer') %>
